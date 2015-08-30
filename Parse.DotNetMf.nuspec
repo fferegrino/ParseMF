@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata minClientVersion="2.8.1">
+		<id>M16.Parse.DotNetMf</id>
+		<version>0.1.0.0</version>
+		<title>Parse client for .NET Micro Framework</title>
+		<authors>Antonio Feregrino</authors>
+		<iconUrl>http://i.imgur.com/1T4ghK6.png</iconUrl>
+		<projectUrl>http://github.com/messier16/xamarin-plugins/tree/master/M16.Parse#why</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>A small library that allows a board (like the Netduino 3 Wi-Fi) to send push notifications to Parse.</description>
+		<tags>Microframework, Netduino, Parse.com</tags>
+		<!--More Metadata-->
+	</metadata>
+	<files>
+
+		<file src="Messier16.Parse.DotNetMf\bin\Release\Messier16.Parse.DotNetMf.*" target="lib/netmf41/" />
+		<file src="Messier16.Parse.DotNetMf\bin\Release\le\Messier16.Parse.DotNetMf.p*" target="lib/netmf41/le/" />
+		<file src="Messier16.Parse.DotNetMf\bin\Release\be\Messier16.Parse.DotNetMf.p*" target="lib/netmf41/be/" />
+
+
+	</files>
+</package>
